@@ -2,7 +2,7 @@
 
 ### Criando uma Pokedex interativa no javascript
 
-Desafio de projeto da DIO para implementar os conhecimentos adquiridos em desenvolvimento Web, com javascript, html e css.
+Desafio de projeto da [DIO](https://web.dio.me) para implementar os conhecimentos adquiridos em desenvolvimento Web, com javascript, html e css.
 
 ## Linguagens
 [![JavaScript](https://img.shields.io/badge/JavaScript-080808?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
