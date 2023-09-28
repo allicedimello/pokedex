@@ -1,6 +1,6 @@
 # **Pokedex**
 
-### Criando uma Pokedex interativa no javascript
+### Criando uma Pokedex interativa em javascript
 
 Desafio de projeto da [DIO](https://web.dio.me) para implementar os conhecimentos adquiridos em Desenvolvimento Web.
 
