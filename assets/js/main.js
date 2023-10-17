@@ -18,4 +18,4 @@ function convertPokemon(pokemon){
 
 const pokemonList = document.getElementById('pokemonList')
 
-pokeApi.getPokemons().then((pokemons = []) => pokemonList.innerHTML += pokemons.map(convertPokemon).join(''))
+pokeApi.getPokemons().then((pokemons = []) => pokemonList.innerHTML = pokemons.map(convertPokemon).join(''))
