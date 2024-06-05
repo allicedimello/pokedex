@@ -26,6 +26,10 @@ function loadPokemonItens(offset, limit){
     })
 }
 
+function redirect(id) {
+    window.open(`./detail.html?id=${id}`, "_blank")
+}
+
 loadPokemonItens(offset, limit)
 
 loadMore.addEventListener('click', () => {
