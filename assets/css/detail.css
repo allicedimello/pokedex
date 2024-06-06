@@ -11,7 +11,8 @@ body{
     padding: 1rem;
     border-radius: 1rem;
     align-items: center;
-    width: 100%;
+    width: 100vh;
+    height: 100vh;
 }
 
 .icon a img {
@@ -69,7 +70,6 @@ body{
 }
 
 .detail {
-    height: 65vh;
     background-color: antiquewhite;
     border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -134,8 +134,11 @@ body{
     .content { 
         max-width: 380px;
         height: auto;
-        margin: 1rem auto;
+        margin: auto;
         border-radius: 1rem;
+    }
+    .detail{
+        height: 50vh;
     }
 }
 
@@ -143,8 +146,11 @@ body{
     .content { 
         max-width: 572px;
         height: auto;
-        margin: 1rem auto;
+        margin: auto;
         border-radius: 1rem;
+    }
+    .detail{
+        height: 35vh;
     }
 }
 
@@ -152,7 +158,10 @@ body{
     .content { 
         max-width: 992px;
         height: auto;
-        margin: 1rem auto;
+        margin: auto;
         border-radius: 1rem;
+    }
+    .detail{
+        height: 65vh;
     }
 }
