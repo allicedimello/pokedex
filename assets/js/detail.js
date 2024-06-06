@@ -33,51 +33,61 @@ function detailPokemon(id) {
         aboutPokemon.innerHTML += `
         <main id="about">
             <section class="detail">
-                <h2 class="subtitle">Sobre</h2>
+                <h2 class="subtitle">About</h2>
                     <dl class="about">
                         <dt class="text">height</dt>
-                        <dd class="text">${detail.height/10}m</dd>
+                            <dd class="text">${detail.height/10}m</dd>
+                            
                         <dt class="text">weight</dt>
-                        <dd class="text">${detail.weight/10}kg</dd>
+                            <dd class="text">${detail.weight/10}kg</dd>
                     </dl>
                 
-                <h2 class="subtitle">Status</h2>
-            <dl class="skills">
-            <dt class="ability">HP - (${detail.hp})</dt>
-            <dd class="bar">
-                <progress class="progress-bar" max="200" value="${detail.hp}">${detail.hp}</progress>
-            </dd>
-    
-            <dt class="ability">Attack - (${detail.attack})</dt>
-            <dd class="bar">
-                <progress class="progress-bar" max="200" value="${detail.attack}">${detail.attack}</progress>
-            </dd>
-    
-            <dt class="ability">Defense - (${detail.defense})</dt>
-            <dd class="bar">
-                <progress class="progress-bar" max="200" value="${detail.defense}">${detail.defense}</progress>
-            </dd>
-            
-            <dt class="ability">Sp.Atk - (${detail.spAtk})</dt>
-            <dd class="bar">
-                <progress class="progress-bar" max="200" value="${detail.spAtk}">${detail.spAtk}</progress>
-            </dd>
-            
-            <dt class="ability">Sp.Def - (${detail.spDef})</dt>
-            <dd class="bar">
-                <progress class="progress-bar" max="200" value="${detail.spDef}">${detail.spDef}</progress>
-            </dd>
-            
-            <dt class="ability">Speed (${detail.speed})</dt>
-            <dd class="bar">
-                <progress class="progress-bar" max="200" value="${detail.speed}">${detail.speed}</progress>
-            </dd>
-    
-            <dt class="ability">Total (${detail.total})</dt>
-            <dd class="bar">
-                <progress class="progress-bar" max="700" value="${detail.total}">${detail.total}</progress>
-            </dd>
+                <h2 class="subtitle">Stats</h2>
+                    <dl class="stats">
+                        <dt class="stat">HP</dt>
+                            <dd class="text">${detail.hp}</dd>
+                            <dd class="bar">
+                                <progress class="progress-bar" max="200" value="${detail.hp}">${detail.hp}</progress>
+                            </dd>
+                
+                        <dt class="stat">Attack</dt>
+                            <dd class="text">${detail.attack}</dd>
+                            <dd class="bar">
+                                <progress class="progress-bar" max="200" value="${detail.attack}">${detail.attack}</progress>
+                            </dd>
+                
+                        <dt class="stat">Defense</dt>
+                            <dd class="text">${detail.defense}</dd>
+                            <dd class="bar">
+                                <progress class="progress-bar" max="200" value="${detail.defense}">${detail.defense}</progress>
+                            </dd>
+                        
+                        <dt class="stat">Special-attack</dt>
+                            <dd class="text">${detail.spAtk}</dd>
+                            <dd class="bar">
+                                <progress class="progress-bar" max="200" value="${detail.spAtk}">${detail.spAtk}</progress>
+                            </dd>
+                        
+                        <dt class="stat">Special-defense</dt>
+                            <dd class="text">${detail.spDef}</dd>
+                            <dd class="bar">
+                                <progress class="progress-bar" max="200" value="${detail.spDef}">${detail.spDef}</progress>
+                            </dd>
+                        
+                        <dt class="stat">Speed</dt>
+                            <dd class="text">${detail.speed}</dd>
+                            <dd class="bar">
+                                <progress class="progress-bar" max="200" value="${detail.speed}">${detail.speed}</progress>
+                            </dd>
                     </dl>
+
+                    <dl class="stats">
+                        <dt class="stat">Total</dt>
+                            <dd class="text">${detail.total}</dd>
+                            <dd class="bar">
+                                <progress class="progress-bar" max="700" value="${detail.total}">${detail.total}</progress>
+                            </dd>
+                    </dl>     
             </section>
             
         </main>

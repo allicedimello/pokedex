@@ -6,7 +6,8 @@ class Pokemon {
     photo;
     height;
     weight;
-    ability = [];
+    ability;
+    abilities = [];
     hp;
     attack;
     defense;

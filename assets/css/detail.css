@@ -15,9 +15,9 @@ body{
 }
 
 .icon a img {
-    width: 0.8rem;
+    width: 1rem;
     margin-top: 2rem;
-    margin-left: 0.8rem;
+    margin-left: 1rem;
 }
 
 .pokemon {
@@ -29,14 +29,14 @@ body{
     color: antiquewhite;
     font-size: 1rem;
     text-align: right;
-    margin-right: 0.8rem;
+    margin-right: 1rem;
     margin-top: 1rem;
 }
 
 .name {
     color: antiquewhite;
-    font-size: 1.6rem;
-    margin: 0.8rem 0 0.2rem 0.6rem;
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem 0.5rem;
     text-transform: capitalize;
 }
 
@@ -61,15 +61,15 @@ body{
 .img-pokemon{
     display: flex;
     justify-content: center;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
 }
 
 .img-pokemon a img {
-    height: 8.75rem;
+    height: 9rem;
 }
 
 .detail {
-    height: 55vh;
+    height: 65vh;
     background-color: antiquewhite;
     border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -79,45 +79,46 @@ body{
     font-size: 1rem;
     text-align: center;
     margin-top: 1rem;
-    padding: 0.9rem 0 0 0;
+    padding: 1rem 0 0 0;
 }
 
 .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    }
-
-.text {
-    margin-top: 0.1rem;
-    font-size: 0.925rem;
-    font-weight: 300;
-    text-transform: capitalize;
-}
-
-.skills {
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+
+.text {
+    margin-top: 0.13rem;
+    font-size: 0.85rem;
+    font-weight: 300;
+    text-transform: capitalize;
 }
 
-
-progress {
-    -webkit-appearance: none;
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.ability {
-    font-size: 0.855rem;
+.stat {
+    font-size: 0.85rem;
     font-weight: 300;
 }
 
-.progress-bar::-webkit-progress-bar {
-    background-color: #080808;
-    border: 0.125rem solid #080808;
+.progress-bar {
+    background-color: #666;
+    border: 0.125rem solid #666;
     border-radius: 1rem;
-    height: 0.825rem;
+    height: 1rem;
     width: 6.25rem;
 }
 
@@ -125,15 +126,26 @@ progress {
     background-color: #080808;
     border: 0.125rem solid #080808;
     border-radius: 1rem;
-    height: 0.825rem;
+    height: 1rem;
     width: 6.25rem;
 }
 
-progress::-webkit-progress-value {
-    background: #666;
-    border-radius: 1rem;
-    height: 0.825rem;
-    width: 6.25rem;
+@media screen and (min-width:380px) {
+    .content { 
+        max-width: 380px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .content { 
+        max-width: 572px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
 }
 
 @media screen and (min-width:992px) {
