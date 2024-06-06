@@ -9,7 +9,6 @@ function getId(){
     return id
 }
 
-
 function detailPokemon(id) {
     pokeApi.getDetailById(id).then((detail) => {
         content.classList.add(`${detail.type}`)
@@ -88,8 +87,7 @@ function detailPokemon(id) {
                                 <progress class="progress-bar" max="700" value="${detail.total}">${detail.total}</progress>
                             </dd>
                     </dl>     
-            </section>
-            
+            </section>          
         </main>
         `
     })
